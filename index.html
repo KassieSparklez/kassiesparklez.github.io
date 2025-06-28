@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -18,7 +17,6 @@
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js" crossorigin="anonymous"></script>
-
 </head>
 
 <body>
@@ -38,11 +36,11 @@
                             <div class="collapse navbar-collapse" id="mainNavbar">
                                 <div class="ms-auto d-flex flex-column flex-lg-row">
                                     <a href="#" class="btn btn-primary mx-lg-1 my-1 my-lg-0">Home</a>
-                                    <a href="#meetme" class="btn btn-primary mx-lg-1 my-1 my-lg-0"
-                                        onclick="ShowAbout()">About</a>
+                                    <a href="#" class="btn btn-primary mx-lg-1 my-1 my-lg-0"
+                                        onclick="FadeInSection('meetKassie')">About</a>
                                     <a href="https://forms.gle/7vhTWJHGDYY2rnRC9"
                                         class="btn btn-primary mx-lg-1 my-1 my-lg-0">Consent Form</a>
-                                    <a href="#gallery" class="btn btn-primary mx-lg-1 my-1 my-lg-0">Gallery</a>
+                                    <a href="#" onclick="FadeInSection('galleryContainer')" class="btn btn-primary mx-lg-1 my-1 my-lg-0">Gallery</a>
                                     <a href="https://app.squareup.com/appointments/book/32izshecyj2ejd/L3G93Z0P50KSK/start"
                                         class="btn btn-primary mx-lg-1 my-1 my-lg-0">Book</a>
                                     <a href="./priceList.jpg" class="btn btn-primary mx-lg-1 my-1 my-lg-0">Prices</a>
@@ -75,20 +73,24 @@
                             <div class="about-content">
                                 <div class="about-text text-center">
                                     <h2>Kassie Benton</h2>
-                                    <p>"I've been piercing people for a living for 13 years now - I never use piercing guns; only single use needles and implant medical grade Titanium Jewellery.
-                                        My studio is always surgically clean (as you'd expect!), fully insured, and inspected annually by the local council." </p>
+                                    <p>"I've been piercing people for a living for 13 years now! Some might say you have
+                                        to be a bit mad
+                                        to
+                                        do that... and honestly, they’re ABSOLUTELY RIGHT! 😄 But seriously, I love what
+                                        I do. My studio
+                                        is
+                                        always surgically clean (as you'd expect!), fully insured, and inspected
+                                        annually by the local
+                                        council." </p>
                                     <a href="#gallery" class="cta-button"
                                         onclick="FadeInSection('galleryContainer')">Gallery</a>
                                 </div>
                             </div>
-
                     </section>
-
                 </div>
             </div>
         </div>
         <br>
-
         <div class="galleryContainer" hidden>
             <div class="row">
                 <div class="col-md-12">
@@ -109,7 +111,6 @@
                 </div>
             </div>
         </div>
-
 <div class="testimonialsAndFooterContainer" hidden>
   <div class="row">
             <div class="col-md-12">
@@ -151,20 +152,16 @@
             </a>
             <div class="contact-info mt-3">
                 <p class="mb-1"><strong>Address:</strong> 103 Moreton Street, Cannock WS11 5HN</p>
-                <p class="mb-1"><strong>Opening Times:</strong> Wed-Fri 12pm - 6pm, Sat 11am-6pm. Walk-ins welcome!</p>
+                <p class="mb-1"><strong>Opening Times:</strong> Wed-Fri 12pm - 6pm, Walk-ins welcome!</p>
                 <p class="mb-0"><strong>Phone:</strong> <a href="tel:+447307336010">07307 336 010</a></p>
             </div>
         </div>
         <p>&copy; 2025 Kassie Sparklez Piercing. All rights reserved.</p>
-        <p>Website hand crafted by <a href="https://www.facebook.com/profile.php?id=61577212533970" target="_blank">Blue Bear Digital</a></p>
-        
-
+        <p>Website hand crafted by <a href="https://www.facebook.com/profile.php?id=61577212533970" target="_blank">Blue bear Digital</a></p>
         </div>
     </footer>
     </div>
-
-</div>
-      
+</div>   
     <script src="./background.js"></script>
     <script>
         function FadeInSection(name) {
@@ -173,9 +170,5 @@
             });
         }
     </script>
-
-
-
 </body>
-
 </html>
